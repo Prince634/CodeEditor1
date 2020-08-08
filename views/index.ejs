@@ -1,0 +1,28 @@
+<!doctype html> 
+<html>
+	<head>
+		<link rel="icon" href="./images/nearGymIcons.png">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<% for(var i=0; i<css_files.length; i++) {%>
+    	<link rel="stylesheet" type="text/css" href="<%-css_files[0]%>">
+    <% } %>
+	<%if(helmetTags) {%>
+		<%-helmetTags.title.toString()%>
+		<%-helmetTags.meta.toString()%>
+	<%}%>
+	<% for(var i=0; i<bundles.length; i++) {%>
+        <script defer src="<%-bundles[i].file%>"></script>
+    <% } %>
+	<% for(var i=0; i<split_bundles.length; i++) {%>
+        <script defer src="<%-split_bundles[i]%>"></script>
+    <% } %>
+    <script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<div id ="root"><%-htmlContent%></div>
+		<script type="text/javascript">
+			window.INITIAL_STATE = <%-storeData%>
+		</script>
+	</body>
+</html>

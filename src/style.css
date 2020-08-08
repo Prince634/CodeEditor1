@@ -1,0 +1,214 @@
+body{
+	background-color: #F8F6F6;
+}
+.crsr{
+	cursor: pointer;
+}
+.d-none{
+	display: none !important;
+}
+
+/*Start Style Signup html*/
+		.container{
+			box-sizing: border-box;
+			background: #4D48A0;
+			height: 100vh;
+			position: relative;
+		}
+		.box{
+			position: absolute;
+			right:0;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			background: #fff;
+			max-width: 300px;
+			padding: 20px;
+			border-radius: 2px;
+			margin: auto;
+			height: 400px;
+		}
+		.heading{
+			font-style: bold;
+			text-align: center;
+			font-weight: 500;
+			font-size: 28px;
+		}
+		.hd-txt{
+			text-align: center;
+		}
+		.blck p {
+			margin-bottom: 1px;
+		}
+		.lbl{
+			padding: 4.5px;
+			border-radius: 2px;
+			width: 100%;
+			border:#ddd solid 1px;
+		}
+		.btn{
+			width: 100%;
+		    background: #16B80E;
+		    padding: 10px;
+		    margin-top: 20px;
+		    color: #fff;
+		    cursor: pointer;
+		    border-radius: 3px;
+		    font-size: 14px;
+		    font-weight: 600;
+		}
+		.btn:hover{
+			background: #2C9227
+		}
+		.log-txt{
+			margin: 20px;
+			font-size: 13px;
+		}
+		.log{
+			color:#16B80E;
+			cursor: pointer;
+		}
+
+		.footer{
+			position: fixed;
+		    bottom: 0;
+		    right: 0;
+		    left: 0;
+		}
+/*End Style Signup html*/
+
+/*START HOTEL*/
+		.nrby-txt{
+			font-weight: 900;
+			display: inline-block;
+			font-size: large;
+		}
+		body{
+			margin: 0px;
+			padding:0px;
+			box-sizing: border-box;
+		}
+		.header{
+			background: #4D48A0;
+			position: sticky;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			z-index: 2;
+		}
+		.header span{
+			color:white;
+			padding: 16px 8px;
+			cursor: pointer;
+		}
+		.left-nav{
+			padding: 5px;
+		}
+		.right-nav{
+			display: flex;
+			justify-content: flex-end;
+		}
+		.right-spn:hover {
+			background: #111111;
+		}
+		.f-section{
+
+		}
+		.f-img{
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			height: 80vh;
+			position: absolute;
+		}
+		.f-txt{
+			position: relative;
+			text-align: center;
+			top: 60px;
+		}
+		.f-txt p{
+			color:#fff;
+		}
+		.ftxt-f{
+
+		}
+		.ftxt-s{
+
+		}
+		.ftxt-t{
+			background: #000;
+		}
+
+/*END HOTEL*/
+
+/***************START CHAT VIEW**********************************/
+
+
+.chat-main{
+	width: 100%;
+    background: #fff;
+    display: flex;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+}
+.chat-txt{
+	font-size: 22px;
+	margin: 0;
+    border-color: grey;
+    flex: 3;
+    border-style: groove;
+}
+.chat-input {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 5px;
+}
+.chat-input p {
+	flex:1;
+	font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px;
+    background: blue;
+}
+.chat-content{
+	width: 100%;
+    overflow: scroll;
+}
+.chat-rght{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-right: 7px;
+}
+.chat-rght p{
+	margin-bottom: 0px;
+	padding: 9px;
+    background: lavender;
+    border-radius: 5px;
+}
+.chat-lft{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 7px;
+}
+.chat-lft p{
+	margin-bottom: 0px;
+	padding: 9px;
+    background: lightyellow;
+    border-radius: 5px;
+}
+/***************END CHAT VIEW**********************************/
+
+
+.edit-blck{
+	margin: 8px;
+	width: 80%;
+}
